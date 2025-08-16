@@ -1,0 +1,19 @@
+{
+  "name": "great-idea-great-execution-webcam-background",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/c0d3rk1d/great-idea-great-execution-webcam-background.git"
+  },
+  "author": "Kay Anar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0d3rk1d/great-idea-great-execution-webcam-background/issues"
+  },
+  "homepage": "https://github.com/c0d3rk1d/great-idea-great-execution-webcam-background#readme"
+}
