@@ -23,13 +23,32 @@
       display: none;
   }
 
-  .hint {
+  .idea {
       position: absolute;
       left: 12px;
       bottom: 12px;
       padding: 6px 10px;
+      color: #7A1FF0;
+      -webkit-text-stroke: 0.0001em rgba(0, 0, 0, .5);
       background: rgba(255, 255, 255, .75);
       border-radius: 8px;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
-      font-size: 12px;
+      font-size: 4em;
+      font-family: "Reenie Beanie", cursive;
+      font-weight: 800;
+      font-style: normal;
+  }
+
+  .execution {
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+      padding: 6px 10px;
+      color: #D6D12A;
+      -webkit-text-stroke: 0.0001em rgba(0, 0, 0, .5);
+      background: rgba(255, 255, 255, .75);
+      border-radius: 8px;
+      font-size: 4em;
+      font-family: "Reenie Beanie", cursive;
+      font-weight: 800;
+      font-style: normal;
   }
