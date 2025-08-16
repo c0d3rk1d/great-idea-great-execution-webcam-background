@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Great Idea / Great Execution Webcam Background</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="stage">
+    <canvas id="background"></canvas>
+    <canvas id="composite"></canvas>
+    <video id="webcam" autoplay playsinline></video>
+    <div class="idea">great idea</div>
+    <div class="execution">great execution</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/roughjs@4.5.1/bundled/rough.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/selfie_segmentation/selfie_segmentation.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
